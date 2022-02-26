@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Menu</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="javascript.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+</head>
+
+<body onLoad="startMenu()">
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12" id="navBarMainLinksColumn">
+      <nav class="navbar navbar-expand-lg navbar-dark sticky-top md-5 " id="navBarMainLinks">
+        <a href="index.html" class="navbar-brand"><img src="images/logo.png" alt="Logo" width="100"></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav">
+              <a href="menu.html" class="nav-item nav-link active">MENU</a>
+              <a href="feedbacks.html" class="nav-item nav-link" id="feedbacksLink"></a>
+              <a href="ofUs.html" class="nav-item nav-link" id="ofUsLink"></a>
+              <a href="findUs.html" class="nav-item nav-link" id="findUsLink"></a>
+            <div class="buttonsDiv">
+              <div class="buttonsDiv">
+                <button><img src="images/english.png" alt="english" width="30" height="30" id="englishIconMenu"></button>
+              </div>
+              <div class="buttonsDiv">
+              <button><img src="images/danish.png" alt="danish" width="30" height="30" id="danishIconMenu"></button>
+              </div>
+          </div>
+        </div>
+      </div>
+      </nav>
+    </div>
+  </div>
+
+
+
+
+  <div class="row" id="menuHomePage">
+    <div style="max-width:800px">
+    <img class="titleImageMenu" id="titleMenu" src="#" alt="Title">
+    <div class="flex-container flex justify-content-center align-items-center col-md-12 " id="menuHomePageImages">
+      <div class="container menuLogoContainer align-self-center">
+        <div class="p-2 menuCategoryHomePage"><a href="menuAppetizers.html"><img src="images/menuAppetizerLogo.png" alt="appetizers" class="rounded-circle menuLogos" ><h5 class="caption" id="appetizersCategory"><b></b></h5></a></div>
+      </div>
+        <div class="container menuLogoContainer  align-self-center">
+        <div class="p-2 menuCategoryHomePage"><a href="menuPasta.html"><img src="images/menuPastaLogo.png" alt="pasta" class="rounded-circle menuLogos" ><h5 class="caption" id="pastaCategory"><b></b></h5></a></div></div>
+        <div class="container menuLogoContainer  align-self-center">
+        <div class="p-2 menuCategoryHomePage"><a href="mainDishesMenu.html"><img src="images/menuMainDishesLogo.png" alt="mainDishes" class="rounded-circle menuLogos"> <h5 class="caption w-auto" id="mainDishesCategory"><b></b></h5></a></div></div>
+        <div class="container menuLogoContainer  align-self-center">
+        <div class="p-2 menuCategoryHomePage"><a href="secondDishesMenu.html"><img src="images/menuSecondDishesLogo.png" alt="secondDishes" class="rounded-circle menuLogos" ><h5 class="caption" id="secondDishesCategory"><b> </b></h5></a></div></div>
+        <div class="container menuLogoContainer  align-self-center">
+        <div class="p-2 menuCategoryHomePage"><a href="dessertsMenu.html"><img src="images/menuDessertLogo.png" alt="desserts" class="rounded-circle menuLogos"> <h5 class="caption" id="dessertsCategory"><b></b></h5></a></div></div>
+        <div class="container menuLogoContainer  align-self-center">
+        <div class="p-2 menuCategoryHomePage"><a href="beveragesMenu.html"><img src="images/menuBeveragesLogo.png" alt="beverages" class="rounded-circle menuLogos"> <h5 class="caption" id="beveragesCategory"><b></b></h5></a></div></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-md-12" id="footer">
+      <!-- Footer -->
+      <footer class="text-center text-lg-start">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-3"></div>
+          <div class="col-lg-6 col-md-6 mb-4 mb-md-0 text-center" id="footerText">
+            <h5 class="text-uppercase" id="footerContent"></h5>
+            <p id="footerParagraph">
+
+            </p>
+          </div>
+          <div class="col-md-3"></div>
+          <!--Grid column-->
+        </div>
+        <div class="row" id="linksList">
+          <!--Grid column-->
+          <div class="col-md-4 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="menu.html" class="text-light">Menu</a>
+              </li>
+              <li>
+                <a href="findUs.html" class="text-light" id="contactUsLink"></a>
+              </li>
+              <li>
+                <a href="#!" class="text-light" id="report"></a>
+              </li>
+              <li>
+                <a href="ofUs.html" class="text-light" id="restaurantLink"></a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <div class="col-md-4 mb-4 mb-md-0">
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <b>Horsens 8700, DK, Denmark</b>
+              </li>
+              <li>
+                <b>+45 45xxxxx43</b>
+              </li>
+              <li>
+                <b>CVR: 59268xxx</b>
+              </li>
+              <li>
+                <b>email@email.com</b>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">SOCIAL MEDIA</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <i class="fa fa-facebook-square" style="font-size:36px"></i>
+              </li>
+              <li>
+                <i class="fa fa-tripadvisor" style="font-size:36px"></i>
+              </li>
+              <li>
+                <i class='fa fa-instagram' style='font-size:36px'></i>
+              </li>
+              <li>
+                <i class="material-icons" style="font-size:36px">email</i>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+
+      </footer>
+      <!-- Footer -->
+    </div>
+
+  </div>
+  </div>
+</body>
+
+</html>

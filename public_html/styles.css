@@ -1,0 +1,596 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+body, head {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.container-fluid {
+    margin: auto;
+    padding: 0;
+    width: auto;
+ }
+
+.row{
+  width: auto;
+  margin: auto;
+}
+
+.fa{
+  margin: 4px;
+}
+
+
+.buttonsDiv{
+  padding: 10px;
+  float: right;
+  margin: auto;
+}
+button,button:active{
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+#indexToEng{
+background: none;
+border:0;
+width: 30px;
+margin: auto;
+padding: 8px;
+}
+#indexToDanish{
+background: none;
+border:0;
+width: 30px;
+margin: auto;
+justify-content: center;
+align-content: center;
+padding: 8px;
+}
+
+
+/*HOMEPAGE-MAIN LINKS NAVBAR*/
+
+#navBarMainLinksColumn{
+  background-color: black;
+  width: 100%;
+}
+
+#navBarMainLinks{
+  width: 100%;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+#navbarCollapse{
+  justify-content: center;
+}
+
+@media (max-width:800px){
+  .navbar{
+
+  }
+}
+.nav-item{
+  margin: 10px;
+  white-space: nowrap;
+}
+.navbar-toggler-icon{
+  border: 1px solid white;
+  background-color: darkred;
+}
+
+/*HOMEPAGE-SLIDESHOW*/
+
+
+#slideshow{
+  margin: auto;
+
+}
+.carouselItem{
+position:relative;
+border-bottom: 1px solid black;
+margin: auto;
+}
+
+
+/*FEEDBACKS*/
+
+
+#presentationTextRow{
+  background-color: white;
+  border-bottom: 1px solid black;
+  width: auto;
+}
+
+#presentationText{
+  font-style: oblique;
+  max-width: 1351px;
+  position: relative;
+  justify-content: center;
+  display: inline;
+  background-clip: padding-box;
+  width: 1351px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/*HOMEPAGE-MAP AND TIMES*/
+
+#mapAndTimesRow{
+  background-color: #757D75;
+}
+#map{
+  padding: 20px;
+  min-height: 400px;
+}
+
+#times{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#timesTable{
+  width:250px;
+  height:400px;
+  position: relative;
+  margin: 20px;
+}
+
+/*FOOTER*/
+
+.footerRow{
+  width:100% !important;
+  margin: 0;
+
+}
+
+#footer{
+  color:white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  min-width: 100%;
+  text-align: center;
+}
+
+#footerText{
+  color: darkgrey;
+  padding: 10px;
+  position: relative;
+}
+
+#linksList{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.li{
+  text-align: center;
+}
+
+
+/*A GENERAL MENU*/
+
+#menuRow{
+background-image: url("images/menuBackground.jpeg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/*MENU NAVBAR*/
+.menuCategory{
+  background-color: white;
+  margin: 8px;
+  padding: 15px;
+  color: black;
+  border-radius: 60px;
+}
+.menuCategory:hover{
+  background-color: #ffe5b4;
+}
+.menuCategory.active{
+  background-color: #ffc317;
+}
+
+#menuListFlexBox{
+  padding:10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#menuNavRow{
+  background-color: black;
+}
+
+
+/*MENU WITH CARDS*/
+#genericMenuFlexBox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#menuImage{
+  border: 2px solid black;
+}
+
+.foodCard{
+  padding: 10px;
+  float: left;
+  color: white;
+
+}
+@media (min-width: 480px) {
+  .foodCard{
+    padding: 25px;
+    float: left;
+    color: white;
+  }
+  }
+#menuRow{
+  height: auto;
+  max-width: 1067px;
+}
+
+.cardMenu{
+  transition-property: all;
+  transition-duration: 0.3s;
+  width:145px;
+  background-color: white;
+  background-blend-mode:color-dodge;
+  color: black;
+  border:0.4px solid black;
+}
+.cardMenu:hover{
+  box-shadow: 5px 9px black;
+  height: auto;
+}
+
+.imgItemMenu{
+  justify-content: center;
+  margin: auto;
+  padding-top: 10px;
+  position: relative;
+
+}
+
+.text-no-wrap{
+  white-space: nowrap;
+
+}
+
+
+
+/*FEEDBACK*/
+.feedbackRow{
+padding: 15px;
+background-image: url("images/feedbacksBackground.jpg");
+background-size: cover;
+}
+
+.feedbackDiv{
+  background-color: lightyellow;
+  position: relative;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+@media (max-width: 480px) {
+  .feedbackDiv{
+    max-width: 350px;
+  }
+  }
+
+
+
+  /*OF US*/
+@media (min-width:992px){
+  .boxMainEntrance{
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    max-width: 240px !important;
+    background-image: url("images/frontEntrance.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width:220px;
+    right:6%;
+  }
+  #descriptionAndPhotoBox{
+    padding-right: 15%;
+    padding-left:15%;
+    padding-top:40px;
+    padding-bottom:40px;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+}
+
+@media (max-width:991px){
+  .boxMainEntrance{
+    background-image: url("images/ofUsHorizontalEntrance.jpeg");
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    margin-top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  #textBox1{
+    width:100%;
+    margin: 0 !important;
+    border: 0 !important;
+  }
+  #descriptionAndPhotoBox{
+    margin: 0 !important;
+    padding: 0 !important;
+    min-width: 100%;
+  }
+  .boxesOfUsRow{
+    padding-top: 0px !important;
+  }
+  #menuImage{
+    border: 0;
+    min-width: 100%;
+  }
+}
+
+  .boxesOfUsRow{
+    background-repeat: space;
+    background-position: center;
+    background-size: cover;
+    max-width: 1067px;
+    padding-bottom: 40px;
+    margin: auto;
+    width: 100%;
+    justify-content:space-around;
+    align-items: center;
+    min-height: 100%;
+  }
+
+  @media (max-width:920px){
+    @media(min-width:768px){
+    .boxesOfUsRow{
+      display: block;
+    }
+    }
+  }
+
+
+  .boxOfUs{
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: auto;
+  border: 2px solid black;
+}
+#textBox1{
+  background-color: white;
+  padding: 30px;
+  border:0;
+}
+
+
+.informationOfUsBox{
+  padding: 27.5px;
+  font-family:sans-serif;
+  font-size: 13px;
+  height:auto;
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0.1px solid black;
+  min-width: 300px;
+}
+
+.centeredSpan{
+  position: relative;
+  justify-content: center;
+  display: inline;
+  background-clip: padding-box;
+  text-align:left;
+  font-style: oblique;
+  justify-content: center;
+  display: inline;
+  margin:auto;
+
+}
+
+
+.cardOfUs{
+  width:100%;
+  min-height:364px;
+  height: auto;
+  background-color: white;
+  transition-duration: 0.2s;
+  position: relative;
+}
+
+.cardOfUs:hover{
+  box-shadow: 5px 9px grey;
+
+}
+
+.centralOfUsBox{
+  padding: 25px;
+  font-family:sans-serif;
+  font-size: 13px;
+  height: auto;
+  max-width: 350px;
+  border-left: 0;
+  border-right: 0;
+}
+
+
+/*MENU*/
+
+#menuHomePage{
+  width: 100%;
+  background-image: url("images/backgroundMenu.jpeg");
+  background-position: center;
+background-repeat: repeat;
+  height: auto;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+}
+
+.menuCategoryHomePage{
+  background-color: brown;
+  position: relative;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border:2px solid black;
+  transition-duration: 0.4s;
+  justify-content: center;
+  align-items: center;
+}
+.menuCategoryHomePage:hover{
+box-shadow: 3px 6px darkgrey;
+height: 170px;
+width: 170px;
+margin-left: 20px;
+margin-right: 20px;
+
+}
+
+#menuHomePageImages{
+  padding:20px;
+  display: flex;
+  width: auto;
+  flex-basis: auto;
+  height: auto;
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.menuLogos{
+  height: 100%;
+  width: 100%;
+
+}
+
+.titleImageMenu{
+  margin: auto;
+  width: 100%;
+  min-width:300px;
+  max-width: 600px;
+}
+
+
+h2 {
+  /* Prefix required. Even Firefox only supports the -webkit- prefix */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+
+.menuLogoContainer{
+  margin: auto;
+  align-self: auto;
+  position: relative;
+  flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    width: auto;
+}
+
+.caption{
+  margin: auto;
+  position: relative;
+  overflow: auto;
+  color: black;
+  font-style:italic;
+  text-decoration: none;
+font-size: 16px;
+  font-family: sans-serif;
+  display:inline-grid;
+  margin-top: 10px;
+  text-decoration-color: black;
+  white-space:pre-wrap;
+  background-color: white;
+  border-radius: 90px;
+  border: 1px solid black;
+  padding: 6px;
+}
+
+
+/*FIND US*/
+#boxesFindUsRow{
+  background-color: brown;
+  padding: 40px;
+  padding-top: 80px;
+  padding-bottom: 120px;
+  margin: auto;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.informationFindUsBox{
+  padding: 25px;
+  font-family:sans-serif;
+  font-size: 13px;
+  height: 10%;
+  width: 100% !important;
+  margin: 25px;
+  border: 2px solid black;
+  align-items: center;
+  min-width: 350px;
+  max-width: 600px;
+}
+@media (max-width:851px){
+  .informationFindUsBox{
+    margin: 4px;
+  }
+}
+@media(min-width:840){
+  @media(max-width:851px){
+    .informationOfUsBox{
+      min-width: 0px;
+      max-width: 300px;
+    }
+  }
+}
+
+
+iframe{
+  height: 100% !important;
+  position: relative;
+  width: 100%;
+  min-height: 100% !important;
+  max-height: none;
+}

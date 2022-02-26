@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Menu</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="javascript.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body onload="startDessertsMenu()">
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12" id="navBarMainLinksColumn">
+      <nav class="navbar navbar-expand-lg navbar-dark sticky-top md-5 " id="navBarMainLinks">
+        <a href="index.html" class="navbar-brand"><img src="images/logo.png" alt="Logo" width="100"></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav">
+            <a href="menu.html" class="nav-item nav-link active">MENU</a>
+            <a href="feedbacks.html" class="nav-item nav-link" id="feedbacksLink"></a>
+            <a href="ofUs.html" class="nav-item nav-link" id="ofUsLink"></a>
+            <a href="findUs.html" class="nav-item nav-link" id="findUsLink"></a>
+          <div class="buttonsDiv">
+            <div class="buttonsDiv">
+              <button><img src="images/english.png" alt="english" width="30" height="30" id="englishIconDessertsMenu"></button>
+            </div>
+            <div class="buttonsDiv">
+            <button><img src="images/danish.png" alt="danish" width="30" height="30" id="danishIconDessertsMenu"></button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12" id="menuImage">
+      <img src="images/menuDessertImage.jpeg" alt="menuImage" style="max-height:600px;max-width: 100%;height: auto;">
+    </div>
+  </div>
+
+  <div class="row" id="menuNavRow">
+    <div class="d-flex col-md-12 justify-content-center align-self-center sticky" id="menuListFlexBox">
+        <a href="menuAppetizers.html"><div class="p-2 menuCategory" id="appetizersCategory"></div></a>
+        <a href="menuPasta.html"><div class="p-2 menuCategory " id="pastaCategory"></div></a>
+        <a href="mainDishesMenu.html"><div class="p-2 menuCategory" id="mainDishesCategory"></div></a>
+        <a href="secondDishesMenu.html"><div class="p-2 menuCategory" id="secondDishesCategory"></div></a>
+        <a href="dessertsMenu.html"><div class="p-2 menuCategory active" id="dessertsCategory"></div></a>
+        <a href="beveragesMenu.html"><div class="p-2 menuCategory" id="beveragesCategory"></div></a>
+      </div>
+  </div>
+
+
+  <div class="row" id="menuRow" style="background-image: url(images/menuDessertBackground.jpeg)">
+    <div class="col-md-12">
+      <div class="flex-container" id="genericMenuFlexBox">
+        <div class="foodCard">
+          <div class="card cardMenu" style="color:black" >
+            <img src="images/dessert1.jpeg" class="rounded-circle imgItemMenu card-img-right" height="120" width="130" alt="Pasta">
+            <div class="card-body">
+              <h4 class="card-title" id="dessert1Title"></h4>
+              <p class="card-text" id="dessert1Text"></p>
+              <h5 class="card-title">60.00 kr</h5>
+            </div>
+          </div>
+        </div>
+        <div class="foodCard">
+          <div class="card cardMenu" style="color:black" >
+            <img src="images/dessert2.jpeg" class="rounded-circle imgItemMenu card-img-right" height="120" width="130" alt="Pasta">
+            <div class="card-body">
+              <h4 class="card-title" id="dessert2Title"></h4>
+              <p class="card-text" id="dessert2Text"></p>
+              <h5 class="card-title">80.00 kr</h5>
+            </div>
+          </div></div>
+        <div class="foodCard">
+          <div class="card cardMenu" style="color:black;width:210px">
+            <img src="images/dessert3.jpeg" class="rounded-circle imgItemMenu card-img-right" height="120" width="130" alt="Pasta">
+            <div class="card-body">
+              <h4 class="card-title" id="dessert3Title"></h4>
+              <p class="card-text" id="dessert3Text"></p>
+              <h5 class="card-title">60.00 kr</h5>
+            </div>
+          </div>
+        </div>
+        <div class="foodCard">
+          <div class="card cardMenu" style="color:black">
+            <img src="images/dessert4.png" class="rounded-circle imgItemMenu card-img-right" height="120" width="130" alt="Pasta">
+            <div class="card-body">
+              <h4 class="card-title" id="dessert4Title"></h4>
+              <p class="card-text" id="dessert4Text"></p>
+              <h5 class="card-title">40.00 kr</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-md-12" id="footer">
+      <!-- Footer -->
+      <footer class="text-center text-lg-start">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-3"></div>
+          <div class="col-lg-6 col-md-6 mb-4 mb-md-0 text-center" id="footerText">
+            <h5 class="text-uppercase" id="footerContent"></h5>
+            <p id="footerParagraph">
+            </p>
+          </div>
+          <div class="col-md-3"></div>
+          <!--Grid column-->
+        </div>
+        <div class="row" id="linksList">
+          <!--Grid column-->
+          <div class="col-md-4 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="menu.html" class="text-light">Menu</a>
+              </li>
+              <li>
+                <a href="findUs.html" class="text-light" id="contactUsLink"></a>
+              </li>
+              <li>
+                <a href="#!" class="text-light" id="report"></a>
+              </li>
+              <li>
+                <a href="ofUs.html" class="text-light" id="restaurantLink"></a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <div class="col-md-4 mb-4 mb-md-0">
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <b>Horsens 8700, DK, Denmark</b>
+              </li>
+              <li>
+                <b>+45 45xxxxx43</b>
+              </li>
+              <li>
+                <b>CVR: 59268xxx</b>
+              </li>
+              <li>
+                <b>email@email.com</b>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">SOCIAL MEDIA</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <i class="fa fa-facebook-square" style="font-size:36px"></i>
+              </li>
+              <li>
+                <i class="fa fa-tripadvisor" style="font-size:36px"></i>
+              </li>
+              <li>
+                <i class='fa fa-instagram' style='font-size:36px'></i>
+              </li>
+              <li>
+                <i class="material-icons" style="font-size:36px">email</i>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+
+      </footer>
+      <!-- Footer -->
+    </div>
+
+  </div>
+</div>
+</body>
+
+</html>
